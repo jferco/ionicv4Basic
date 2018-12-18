@@ -1,0 +1,11 @@
+ion-list{
+    ion-item{
+        ion-thumbnail{
+            --border-radius:30px;
+        }
+        --background:var(--ion-color-secondary);
+        margin-bottom: 2%;   
+    }
+}
+
+

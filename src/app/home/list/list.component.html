@@ -1,0 +1,13 @@
+<ion-list>
+  <ion-item *ngFor="let item of data">
+    <ion-thumbnail slot="start">
+      <img src="assets/img/{{item.avatar}}" alt="Thumbnail">
+    </ion-thumbnail>
+    <ion-label text-wrap>
+        <ion-text color="dark">
+          <h3>{{ item.title }}</h3>
+        </ion-text>
+        <p>{{ item.subtitle }}</p>
+      </ion-label>
+  </ion-item>
+</ion-list>
